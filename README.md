@@ -1,12 +1,12 @@
 <div align=center> 
 
-<img src="assets/logo.png" width=500>
+<a href="https://github.com/xuyingjie521/Cornucopia-LLaMA-Fin-Chinese/" target="_blank"><img src="assets/logo.png" alt="Cornucopia-LLaMa" style="width: 80%; min-width: 350px; display: block; margin: auto;"></a>
 
 [![Author](https://img.shields.io/badge/Author-yangmu.yu-green.svg "Author")](https://www.zhihu.com/people/xuyingjie521/columns) [![OS](https://img.shields.io/badge/OS-Linux/Windows/Mac-red.svg "OS")](./) [![Based](https://img.shields.io/badge/Based-huggingface_transformers-blue.svg "OS")](./)
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/xuyingjie521/Cornucopia-LLaMA-Fin-Chinese/LICENSE) [![Python](https://img.shields.io/badge/Python-3.9+-darkseagreen.svg "Python")](./)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=200&color=1AF783&center=true&vCenter=true&width=435&lines=Transformers+load+LLaMa>>>>>>>>>>+GO!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=1AF783&center=true&vCenter=true&width=600&lines=Transformers+load+Cornucopia+LLaMa>>>>>>>>>>+GO!)](https://git.io/typing-svg)
 
 </div>
 
@@ -14,7 +14,6 @@
 # Cornucopia-LLaMA-Fin-Chinese
 ### 聚宝盆(Cornucopia): 基于中文金融知识的LLaMA微调模型
 
----
 
 本项目开源了经过中文金融知识指令精调/指令微调(Instruct-tuning) 的LLaMA-7B模型。通过中文金融公开数据+爬取的金融数据构建指令数据集，并在此基础上对LLaMA进行了指令微调，提高了 LLaMA 在金融领域的问答效果。
 
