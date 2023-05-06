@@ -1,0 +1,13 @@
+accelerate==0.17.1
+appdirs==1.4.4
+bitsandbytes==0.37.1
+black
+black[jupyter]
+datasets
+fire
+git+https://github.com/huggingface/peft.git
+git+https://github.com/huggingface/transformers.git
+gradio
+torch
+sentencepiece
+wandb>=0.15.0
