@@ -74,8 +74,8 @@ def main():
     def evaluate(
         instruction,
         input=None,
-        temperature=0.1,
-        top_p=0.75,
+        temperature=0.2,
+        top_p=0.85,
         top_k=40,
         num_beams=4,
         max_new_tokens=512,
@@ -98,6 +98,14 @@ def main():
                 return_dict_in_generate=True,
                 output_scores=True,
                 max_new_tokens=max_new_tokens,
+                early_stopping=True,
+                remove_invalid_values=True,
+                repetition_penalty=3.5,
+                length_penalty=0.1,
+                epsilon_cutoff=0.05,
+                eos_token_id=2,
+                forced_eos_token_id=2,
+                pad_token_id=0
             )
         s = generation_output.sequences[0]
         output = tokenizer.decode(s)
@@ -121,10 +129,10 @@ def main():
         infer_from_json(args.instruct_dir)
     else:
         for instruction in [
-            "有哪些比较好的高端理财平台？",
+            "老年人理财好还是存定期好？",
             "手上有20万存款，可以作什么投资",
             "净值型和传统理财产品的区别，有什么不同？",
-            "我想了解一下创业板股票怎么买？"
+            "股票和基金能当天随买随卖吗？"
         ]:
             print("Instruction:", instruction)
             print("Response:", evaluate(instruction))
