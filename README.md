@@ -53,14 +53,14 @@ bash ./base_models/load.sh
 LoRA 权重可以通过 Huggingface 下载：
 
 1. 对「decapoda-research/llama-7b-hf」进行指令微调的LoRA权重文件，下载后格式如下：
- - 基于 12M 的中文金融知识问答 [HuggingFace](https://huggingface.co/xyj125/lora-llama-fin-ori-fb)
+ - 基于 12M 的中文金融知识问答 [HuggingFace](https://huggingface.co/yuyangmu125/lora-llama-fin-ori-fb)
  ```
     lora-llama-fin-ori-fb/
         - adapter_config.json   # LoRA权重配置文件
         - adapter_model.bin     # LoRA权重文件
  ```
 2. 对「Linly-AI/Chinese-LLaMA-7B」进行指令微调的LoRA权重文件
- - 基于 14M 的中文金融知识问答 [HuggingFace](https://huggingface.co/xyj125/lora-llama-fin-Linly-zh)
+ - 基于 14M 的中文金融知识问答 [HuggingFace](https://huggingface.co/yuyangmu125/lora-llama-fin-Linly-zh)
  ```
     lora-llama-fin-Linly-zh/
         - adapter_config.json   # LoRA权重配置文件
