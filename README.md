@@ -182,7 +182,9 @@ https://wandb.ai/1812316597/llama_fin/reports/Cornucopia-LLaMA-Fin-Chinese---Vml
 
 ```
 
-## 交流
+## 交流和问题反馈
 
-欢迎点赞🌟、关注、分享，一键三连；如有问题，请在GitHub Issue中提交；深度交流可加QQ：181231697。
+欢迎点赞🌟、关注、分享，一键三连；如有问题，请在GitHub Issue中提交，或进群进一步探讨：  
+
+<img src="assets/qq_party.jpeg" width="350" >
 
