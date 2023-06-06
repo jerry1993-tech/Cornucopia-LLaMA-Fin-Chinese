@@ -124,7 +124,7 @@ bash ./scripts/finetune.sh
 
 实验指标记录与超参设置可以参考wandb的链接:
 
-https://wandb.ai/1812316597/llama_fin/reports/Cornucopia-LLaMA-Fin-Chinese---Vmlldzo0MjkyMjkw
+https://api.wandb.ai/links/1812316597/hkyiriw5  
 
 
 ## 模型效果对比
